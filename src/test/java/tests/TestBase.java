@@ -11,6 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.executeJavaScript;
+import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
 
@@ -35,6 +36,7 @@ public class TestBase {
     @BeforeEach
     void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        open("https://sbermarket.ru");
 //        Selenide.clearBrowserCookies();
 //        Selenide.clearBrowserLocalStorage();
 //        executeJavaScript("sessionStorage.clear();");
@@ -46,5 +48,6 @@ public class TestBase {
         Attach.pageSource();
         Attach.browserConsoleLogs();
         Attach.addVideo();
+        Selenide.closeWebDriver();
     }
 }

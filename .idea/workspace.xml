@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9393507d-5e70-4478-a51a-142a443e4aa2" name="Changes" comment="1st">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="9393507d-5e70-4478-a51a-142a443e4aa2" name="Changes" comment="1st test">
+      <change afterPath="$PROJECT_DIR$/images/Allure_Report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/GitHub-Mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Gradle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Intelij_IDEA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/JUnit5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Jenkins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Selenide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Selenoid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Telegram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SberMarketTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SberMarketTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
@@ -62,7 +71,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/sbermarket/notifications&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/sbermarket/images&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
@@ -70,10 +79,80 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\sbermarket\images" />
       <recent name="C:\Users\User\IdeaProjects\sbermarket\notifications" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.SberMarketTests.citiesForDeliveryAvailabilityTest">
+    <configuration name="SberMarketTests.b2bSwithTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.SberMarketTests.b2bSwithTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SberMarketTests.citiesForDeliveryAvailabilityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.SberMarketTests.citiesForDeliveryAvailabilityTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SberMarketTests.deliveryMethodSwithTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.SberMarketTests.deliveryMethodSwithTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SberMarketTests.mainPageContentTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -97,9 +176,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SberMarketTests.retailersCounterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.SberMarketTests.retailersCounterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SberMarketTests.citiesForDeliveryAvailabilityTest" />
+        <item itemvalue="Gradle.SberMarketTests.retailersCounterTest" />
         <item itemvalue="Gradle.SberMarketTests.mainPageContentTest (1)" />
+        <item itemvalue="Gradle.SberMarketTests.b2bSwithTest" />
+        <item itemvalue="Gradle.SberMarketTests.deliveryMethodSwithTest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +218,9 @@
       <option name="presentableId" value="Default" />
       <updated>1673200867719</updated>
       <workItem from="1673200870690" duration="5222000" />
-      <workItem from="1673207120091" duration="2943000" />
+      <workItem from="1673207120091" duration="3256000" />
+      <workItem from="1673210760187" duration="51000" />
+      <workItem from="1673454980563" duration="7886000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1673203783991</created>
@@ -121,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673203783991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1st test">
+      <created>1673210311900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673210311900</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +255,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st" />
+    <MESSAGE value="1st test" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
