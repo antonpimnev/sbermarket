@@ -58,17 +58,17 @@ public class SberMarketTests extends TestBase {
 
     @Test
     @Tag("sbermarket")
-    @DisplayName("Тест правильности работы счётчика магазинов")
+    @DisplayName("Тест правильности работы счётчика магазинов") //Почему то flaky
     void retailersCounterTest() {
         step("Нажимаем кнопку Показать всех", () -> {
-            $x("//button[@data-qa='b2c_home_landing_delivery_retailers_block_show_all_button']").shouldBe(visible).click();
+            $x("//button[@data-qa='b2c_home_landing_delivery_retailers_block_show_all_button']").shouldBe(visible).click(); //Падает с Element not found :/
         });
         step("Считаем количество отображаемых Ретейлеров и сравниваем со строкой в которой отображается счётчик", () -> {
             int startCounter = $$(".Retailers_styles_retailerWrapper__vhgrM").size();
             String s = Integer.toString(startCounter);
             String showedStringOfShops = "Нашли " + s + " магазинов в";
-            String f = $x("//h2[@data-qa='b2c_home_landing_delivery_retailers_block_title']").getText().substring(0, 20);
-            assertEquals(showedStringOfShops, f);
+            String factCounter = $x("//h2[@data-qa='b2c_home_landing_delivery_retailers_block_title']").getText().substring(0, 20);
+            assertEquals(showedStringOfShops, factCounter);
         });
     }
 
